@@ -1,0 +1,4 @@
+/.azureml
+/.ipynb_checkpoints
+/.vscode
+/.dockerignore
