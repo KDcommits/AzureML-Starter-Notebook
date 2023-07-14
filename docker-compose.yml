@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  dp100certifications:
+    image: dp100certifications
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5002:5002
